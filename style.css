@@ -1,0 +1,77 @@
+.container{
+    display: grid;
+    background-color: white;
+   grid-gap:10px;
+   /* grid-template-areas:
+    */
+   "header header  header header "
+
+   "menu main main main"
+   " menu footer footer  footer";
+   /* grid-auto-flow: column; */
+   grid-template-columns: repeat(12,200px);
+}
+.item1{
+    background-color: aqua;
+    
+}
+
+.item2{
+    background-color: blanchedalmond;
+
+}
+
+.item3{
+    background-color: blue;
+    
+}
+
+.item4{
+    background-color: chartreuse;
+    
+}
+
+.item5{
+    background-color: brown;
+
+}
+
+.item6{
+    background-color: rgb(237, 100, 219);
+
+}
+
+.item7{
+    background-color: rgb(100, 237, 162);
+    
+}
+
+
+.item8{
+    background-color: rgb(237, 228, 100);
+    
+}
+
+
+.item9{
+    background-color: rgb(100, 187, 237);
+
+}
+
+
+
+
+.item10{
+    background-color: rgb(100, 237, 100);
+
+}
+
+.item11{
+    background-color: cornflowerblue;
+    
+}
+
+.item12{
+    background-color: rgb(237, 100, 184);
+    
+}
